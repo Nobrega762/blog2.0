@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bloco-cabecalho{
+    background: rgb(36, 34, 34);
+    height: 20%;
+    border-bottom: 3px solid rgb(2, 1, 8) ;
+}
+
+body{
+    background: linear-gradient(68.15deg, #ececec 40.62%, #312121 85.61%);  
+}
+
+.titulo-cabecalho{
+    margin-left: 42%;
+    padding: 30px;
+    color: white;
+}
+
+.paginas-destinos{
+    display: inline-block;
+    margin-left: 39%;
+}
+
+.item-cabecalho{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.titulo-post{
+    margin-left: 15%;
+    margin-top: 30px;
+}
+
+.subtitulo-post{
+    margin-left: 15%;
+    
+ }
+
+
+
+.foto-post{
+margin-left: 15%;
+}
+
+.texto-conteudo {
+    text-align: left;
+    padding-right: 40%;
+    margin-left: 15%;
+    margin-top: 5px;
+}
+
+.leia-mais {
+    color: rgba(235, 10, 2, 0.89);
+    margin-left: 15%;
+    text-decoration: none;
+}
+
+.bloco-postagens{
+display: inline-block;
+background:#ececec;
+width: 20%;
+position: relative;
+left: 78%;
+bottom: 2150px;
+
+}
+
+.conteudo-postagens{
+    padding-right: 10%;
+    color: rgb(0, 0, 0);
+}
+.postagens-recentes{
+    color: rgb(0, 0, 0);
+    background-color: #A9A9A9
+
+}
