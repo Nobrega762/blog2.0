@@ -1,9 +1,11 @@
 *{
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 .bloco-cabecalho{
+    
     background: rgb(36, 34, 34);
     height: 20%;
     border-bottom: 3px solid rgb(2, 1, 8) ;
@@ -14,14 +16,16 @@ body{
 }
 
 .titulo-cabecalho{
-    margin-left: 42%;
+    text-align: center;
     padding: 30px;
     color: white;
 }
 
 .paginas-destinos{
+    
     display: inline-block;
-    margin-left: 39%;
+    margin-left: 37.5%;
+    
 }
 
 .item-cabecalho{
@@ -29,7 +33,13 @@ body{
     color: white;
     text-decoration: none;
     padding: 10px;
+    
 
+}
+
+.item-cabecalho:hover{
+    font-size: 30px;
+    color: rgb(161, 38, 38);
 }
 
 .titulo-post{
@@ -61,9 +71,14 @@ margin-left: 15%;
     text-decoration: none;
 }
 
+.leia-mais:hover{
+    font-size: 20px;
+
+}
+
 .bloco-postagens{
 display: inline-block;
-background:#ececec;
+
 width: 20%;
 position: relative;
 left: 78%;
@@ -74,7 +89,8 @@ bottom: 2150px;
 
 .conteudo-postagens{
     padding-right: 10%;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
 }
 .postagens-recentes{
     color: rgb(0, 0, 0);
@@ -84,7 +100,7 @@ bottom: 2150px;
 
 .bloco-categoria{
     display: inline-block;
-background:#ececec;
+
 width: 20.5%;
 position: relative;
 left: 57.5%;
@@ -108,3 +124,28 @@ bottom: 2000px;
 .rodape-conteudo{
     text-align: center;
 }
+
+.link-postagem{
+    color: rgb(233, 30, 30);
+    
+    
+}
+.link-postagem:hover{
+    font-size: 20px;
+}
+
+.categoria-link{
+color: red; 
+
+}
+
+.categoria-link:hover{
+    font-size: 20px;
+}
+
+.linha{
+ border-bottom: 1px rgb(0, 0, 0) solid;
+}
+
+
+
